@@ -11,6 +11,7 @@ To learn and improve sql skills
 | 2025 | March | 20  | 577. Employee Bonus     | easy  | LEFT JOIN + NULL  | Leetcode | [SQL](2025/March/020/577EmployeeBonus.sql) |
 | 2025 | March | 21  | 610. Triangle Judgement   | medium  | you need to know or conclude a simple rule for form a triangle $l_i + l_j > l_z$  | Leetcode | [SQL](2025/March/021/610TriangleJudgement.sql) |
 | 2025 | March | 22  | 619. Biggest Single Number  | easy-medium  | GROUP BY, HAVING, COUNT, CTE and MAX  | Leetcode | [SQL](2025/March/022/619_BiggestSingleNumber.sql) |
+| 2025 | March | 23  | 620. Not Boring Movies  | easy  | modulo operation `%` and strings operations `NOT LIKE` `%sub-string%`  | Leetcode | [SQL](2025/March/023/620_NotBoringMovies.sql) |
 
 
 # New Concepts learned + some interesting references

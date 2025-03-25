@@ -12,7 +12,8 @@ To learn and improve sql skills
 | 2025 | March | 21  | 610. Triangle Judgement   | medium  | you need to know or conclude a simple rule for form a triangle $l_i + l_j > l_z$  | Leetcode | [SQL](2025/March/021/610TriangleJudgement.sql) |
 | 2025 | March | 22  | 619. Biggest Single Number  | easy-medium  | `GROUP BY`, `HAVING`, `COUNT`, CTE and `MAX`  | Leetcode | [SQL](2025/March/022/619_BiggestSingleNumber.sql) |
 | 2025 | March | 23  | 620. Not Boring Movies  | easy  | modulo operation `%` and strings operations with booleans for example `NOT LIKE %sub-string%`  | Leetcode | [SQL](2025/March/023/620_NotBoringMovies.sql) |
-| 2025 | March | 24  | 627. Swap Salary  | easy  | `UPDATE` this time and use of `CASE` with a `ENUM` data type  | Leetcode | [SQL](2025/March/023/620_NotBoringMovies.sql) |
+| 2025 | March | 24  | 627. Swap Salary  | easy  | `UPDATE` this time and use of `CASE` with a `ENUM` data type  | Leetcode | [SQL](2025/March/024/627_SwapSalary.sql) |
+| 2025 | March | 25  | 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](2025/March/025/1068_ProductSalesAnalysisI.sql) |
 
 
 # New Concepts learned + some interesting references

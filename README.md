@@ -14,6 +14,7 @@ To learn and improve sql skills
 | 2025 | March | 23  | 620. Not Boring Movies  | easy  | modulo operation `%` and strings operations with booleans for example `NOT LIKE %sub-string%`  | Leetcode | [SQL](2025/March/023/620_NotBoringMovies.sql) |
 | 2025 | March | 24  | 627. Swap Salary  | easy  | `UPDATE` this time and use of `CASE` with a `ENUM` data type  | Leetcode | [SQL](2025/March/024/627_SwapSalary.sql) |
 | 2025 | March | 25  | 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](2025/March/025/1068_ProductSalesAnalysisI.sql) |
+| 2025 | March | 26  | 3475. DNA Pattern Recognition   | medium-hard  | you need to know `REGEXP` and `CASE WHEN`  | Leetcode | [SQL](2025/March/026/3475_DNAPatternRecognition.sql) |
 
 
 # New Concepts learned + some interesting references

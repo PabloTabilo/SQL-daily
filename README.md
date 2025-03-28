@@ -16,6 +16,7 @@ To learn and improve sql skills
 | 2025 | March | 25  | 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](2025/March/025/1068_ProductSalesAnalysisI.sql) |
 | 2025 | March | 26  | 3475. DNA Pattern Recognition   | medium-hard  | you need to know `REGEXP` and `CASE WHEN`  | Leetcode | [SQL](2025/March/026/3475_DNAPatternRecognition.sql) |
 | 2025 | March | 27  | 1393. Capital Gain/Loss  | medium-hard  | Use `SUM` with `CASE WHEN`  | Leetcode | [SQL](2025/March/027/1393_CapitalGainLoss.sql) |
+| 2025 | March | 28  | 180. Consecutive Numbers  | medium-hard  | `INNER JOIN`  | Leetcode | [SQL](2025/March/028/180_ConsecutiveNumbers.sql) |
 
 
 # New Concepts learned + some interesting references

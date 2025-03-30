@@ -1,23 +1,23 @@
-# SQL-daily
+# SQL solver
 Solving differents problems using SQL (platforms like leetcode, hackerrank...)
 
 ## What's the purpose?
 To learn and improve sql skills
 
-| Year | Month | Day | Problem                                | My personal difficulty | Techniques and comments                              | Platform | Solution|
-| ---- | ----- | --- | -------------------------------------- | ---------------------- | ---------------------------------------------------- | ---- | ---- |
-| 2025 | March | 18  | 182. Duplicate Emails     | easy-medium  | CTE + `COUNT` + `HAVING` | Leetcode | [SQL](2025/March/018/182DuplicateEmails.sql) |
-| 2025 | March | 19  | 197. Rising Temperature     | easy-medium | `dateDiff` | Leetcode | [SQL](2025/March/019/197RisingTemperature.sql) |
-| 2025 | March | 20  | 577. Employee Bonus     | easy  | `LEFT JOIN` + `NULL`  | Leetcode | [SQL](2025/March/020/577EmployeeBonus.sql) |
-| 2025 | March | 21  | 610. Triangle Judgement   | medium  | you need to know or conclude a simple rule for form a triangle $l_i + l_j > l_z$  | Leetcode | [SQL](2025/March/021/610TriangleJudgement.sql) |
-| 2025 | March | 22  | 619. Biggest Single Number  | easy-medium  | `GROUP BY`, `HAVING`, `COUNT`, CTE and `MAX`  | Leetcode | [SQL](2025/March/022/619_BiggestSingleNumber.sql) |
-| 2025 | March | 23  | 620. Not Boring Movies  | easy  | modulo operation `%` and strings operations with booleans for example `NOT LIKE %sub-string%`  | Leetcode | [SQL](2025/March/023/620_NotBoringMovies.sql) |
-| 2025 | March | 24  | 627. Swap Salary  | easy  | `UPDATE` this time and use of `CASE` with a `ENUM` data type  | Leetcode | [SQL](2025/March/024/627_SwapSalary.sql) |
-| 2025 | March | 25  | 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](2025/March/025/1068_ProductSalesAnalysisI.sql) |
-| 2025 | March | 26  | 3475. DNA Pattern Recognition   | medium-hard  | you need to know `REGEXP` and `CASE WHEN`  | Leetcode | [SQL](2025/March/026/3475_DNAPatternRecognition.sql) |
-| 2025 | March | 27  | 1393. Capital Gain/Loss  | medium-hard  | Use `SUM` with `CASE WHEN`  | Leetcode | [SQL](2025/March/027/1393_CapitalGainLoss.sql) |
-| 2025 | March | 28  | 180. Consecutive Numbers  | medium-hard  | `INNER JOIN`  | Leetcode | [SQL](2025/March/028/180_ConsecutiveNumbers.sql) |
-
+| Problem                                | My personal difficulty | Techniques and comments                              | Platform | Solution|
+| -------------------------------------- | ---------------------- | ---------------------------------------------------- | ---- | ---- |
+| 180. Consecutive Numbers  | medium-hard  | `INNER JOIN`  | Leetcode | [SQL](solutions/180_ConsecutiveNumbers.sql) |
+| 182. Duplicate Emails     | easy-medium  | CTE + `COUNT` + `HAVING` | Leetcode | [SQL](solutions/182_DuplicateEmails.sql) |
+| 197. Rising Temperature     | easy-medium | `dateDiff` | Leetcode | [SQL](solutions/197_RisingTemperature.sql) |
+| 577. Employee Bonus     | easy  | `LEFT JOIN` + `NULL`  | Leetcode | [SQL](solutions/577_EmployeeBonus.sql) |
+| 610. Triangle Judgement   | medium  | you need to know or conclude a simple rule for form a triangle $l_i + l_j > l_z$  | Leetcode | [SQL](solutions/610_TriangleJudgement.sql) |
+| 619. Biggest Single Number  | easy-medium  | `GROUP BY`, `HAVING`, `COUNT`, CTE and `MAX`  | Leetcode | [SQL](solutions/619_BiggestSingleNumber.sql) |
+| 620. Not Boring Movies  | easy  | modulo operation `%` and strings operations with booleans for example `NOT LIKE %sub-string%`  | Leetcode | [SQL](solutions/620_NotBoringMovies.sql) |
+| 627. Swap Salary  | easy  | `UPDATE` this time and use of `CASE` with a `ENUM` data type  | Leetcode | [SQL](solutions/627_SwapSalary.sql) |
+| 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](solutions/1068_ProductSalesAnalysisI.sql) |
+| 1393. Capital Gain/Loss  | medium-hard  | Use `SUM` with `CASE WHEN`  | Leetcode | [SQL](solutions/1393_CapitalGainLoss.sql) |
+| 3465. Find Products with Valid Serial Numbers | easy-medium  | `REGEXP` | Leetcode | [SQL](solutions/3465_FindProductsWithValidSerialNumbers.sql) |
+| 3475. DNA Pattern Recognition   | medium-hard  | you need to know `REGEXP` and `CASE WHEN`  | Leetcode | [SQL](solutions/3475_DNAPatternRecognition.sql) |
 
 # New Concepts learned + some interesting references
 * CTE's for SQL: https://builtin.com/data-science/advanced-sql

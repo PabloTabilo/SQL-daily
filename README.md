@@ -1,6 +1,8 @@
 # SQL solver
 Solving differents problems using SQL (platforms like leetcode, hackerrank...)
 
+<img src="./resources/imgs/Capture.PNG" width="600">
+
 ## What's the purpose?
 To learn and improve sql skills
 

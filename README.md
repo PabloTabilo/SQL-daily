@@ -19,6 +19,7 @@ To learn and improve sql skills
 | 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](solutions/1068_ProductSalesAnalysisI.sql) |
 | 1075. Project Employees I  | easy  | `INNER JOIN` + `ROUND(, x)` + `AVG()`  | Leetcode | [SQL](solutions/1075_ProjectEmployeesI.sql) |
 | 1084. Sales Analysis III  | medium  | `CTE` and ranges about dates  | Leetcode | [SQL](solutions/1084_SalesAnalysisIII.sql) |
+| 1378. Replace Employee ID With The Unique Identifier  | easy  | `LEFT JOIN`  | Leetcode | [SQL](solutions/1378_ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
 | 1393. Capital Gain/Loss  | medium-hard  | Use `SUM` with `CASE WHEN`  | Leetcode | [SQL](solutions/1393_CapitalGainLoss.sql) |
 | 1683. Invalid Tweets  | easy  | Use `LENGTH` for check the number of characters of string on each row per column  | Leetcode | [SQL](solutions/1683_InvalidTweets.sql) |
 | 3465. Find Products with Valid Serial Numbers | easy-medium  | `REGEXP` | Leetcode | [SQL](solutions/3465_FindProductsWithValidSerialNumbers.sql) |

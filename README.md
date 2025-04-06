@@ -21,6 +21,7 @@ To learn and improve sql skills
 | 1084. Sales Analysis III  | medium  | `CTE` and ranges about dates  | Leetcode | [SQL](solutions/1084_SalesAnalysisIII.sql) |
 | 1378. Replace Employee ID With The Unique Identifier  | easy  | `LEFT JOIN`  | Leetcode | [SQL](solutions/1378_ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
 | 1393. Capital Gain/Loss  | medium-hard  | Use `SUM` with `CASE WHEN`  | Leetcode | [SQL](solutions/1393_CapitalGainLoss.sql) |
+| 1581. Customer Who Visited but Did Not Make Any Transactions  | easy-medium  | Use `COUNT` + `IS NULL`  | Leetcode | [SQL](solutions/1581_CustomerWhoVisitedButDidNotMakeAnyTransactions.sql) |
 | 1683. Invalid Tweets  | easy  | Use `LENGTH` for check the number of characters of string on each row per column  | Leetcode | [SQL](solutions/1683_InvalidTweets.sql) |
 | 3465. Find Products with Valid Serial Numbers | easy-medium  | `REGEXP` | Leetcode | [SQL](solutions/3465_FindProductsWithValidSerialNumbers.sql) |
 | 3475. DNA Pattern Recognition   | medium-hard  | you need to know `REGEXP` and `CASE WHEN`  | Leetcode | [SQL](solutions/3475_DNAPatternRecognition.sql) |

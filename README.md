@@ -19,6 +19,7 @@ To learn and improve sql skills
 | 1068. Product Sales Analysis I  | easy  | `<table> AS T1 INNER JOIN <other table> AS T2 ON T1.foreignKey = T2.id`  | Leetcode | [SQL](solutions/1068_ProductSalesAnalysisI.sql) |
 | 1075. Project Employees I  | easy  | `INNER JOIN` + `ROUND(, x)` + `AVG()`  | Leetcode | [SQL](solutions/1075_ProjectEmployeesI.sql) |
 | 1084. Sales Analysis III  | medium  | `CTE` and ranges about dates  | Leetcode | [SQL](solutions/1084_SalesAnalysisIII.sql) |
+| 1280. Students and Examinations  | medium  | `CTE` + `COUNT` + `COALESCE` for fill with zeros + `CROSS JOIN` for add to each individual 3 attributes as rows  | Leetcode | [SQL](solutions/1280_StudentsAndExaminations.sql) |
 | 1378. Replace Employee ID With The Unique Identifier  | easy  | `LEFT JOIN`  | Leetcode | [SQL](solutions/1378_ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
 | 1393. Capital Gain/Loss  | medium-hard  | Use `SUM` with `CASE WHEN`  | Leetcode | [SQL](solutions/1393_CapitalGainLoss.sql) |
 | 1581. Customer Who Visited but Did Not Make Any Transactions  | easy-medium  | Use `COUNT` + `IS NULL`  | Leetcode | [SQL](solutions/1581_CustomerWhoVisitedButDidNotMakeAnyTransactions.sql) |
@@ -36,3 +37,9 @@ To learn and improve sql skills
 * `ENUM`: https://www.geeksforgeeks.org/enumerator-enum-in-mysql/
     * The `ENUM` data type in MySQL is a string object that allows us to limit the value chosen from a list of permitted values in the column specification at the time of column creation.
     * `ENUM` values are stored as integers (1, 2, 3, …) behind the scenes, which is more space-efficient than storing strings.
+* `CROSS JOIN`:
+    * [datacamp references](https://campus.datacamp.com/courses/joining-data-in-sql/outer-joins-cross-joins-and-self-joins?ex=9)
+
+<img src="./resources/imgs/crossJoin.png" width=600>
+
+* `COALESCE` : The COALESCE() function in SQL returns the first non-null value from a list of expressions. If all values are null, it returns null. It’s commonly used to handle missing values or combine multiple columns into one fallback output. [datacamp reference](https://www.datacamp.com/tutorial/coalesce-sql-function?utm_source=google&utm_medium=paid_search&utm_campaignid=21057859163&utm_adgroupid=157296744937&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=733936255628&utm_targetid=aud-2191467489990:dsa-2218886984820&utm_loc_interest_ms=&utm_loc_physical_ms=1003332&utm_content=ps-other~latam-en~dsa~tofu~tutorial-sql&accountid=9624585688&utm_campaign=230119_1-ps-other~dsa~tofu_2-b2c_3-latam-en_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&gad_source=1&gclid=Cj0KCQjwqv2_BhC0ARIsAFb5Ac-A9-wTxddEycNbgYRf_MnxkaQiEeIbQPpt206zkdWrz6zM3VJFLr0aAo4XEALw_wcB)

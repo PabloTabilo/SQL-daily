@@ -11,6 +11,7 @@ To learn and improve sql skills
 | 180. Consecutive Numbers  | medium-hard  | `INNER JOIN`  | Leetcode | [SQL](solutions/180_ConsecutiveNumbers.sql) |
 | 182. Duplicate Emails     | easy-medium  | CTE + `COUNT` + `HAVING` | Leetcode | [SQL](solutions/182_DuplicateEmails.sql) |
 | 197. Rising Temperature     | easy-medium | `dateDiff` | Leetcode | [SQL](solutions/197_RisingTemperature.sql) |
+| 570. Managers with at Least 5 Direct Reports| medium  | CTE + `JOIN` + `GROUP BY`  | Leetcode | [SQL](solutions/570_ManagersWithAtLeast5DirectReports.sql) |
 | 577. Employee Bonus     | easy  | `LEFT JOIN` + `NULL`  | Leetcode | [SQL](solutions/577_EmployeeBonus.sql) |
 | 610. Triangle Judgement   | medium  | you need to know or conclude a simple rule for form a triangle $l_i + l_j > l_z$  | Leetcode | [SQL](solutions/610_TriangleJudgement.sql) |
 | 619. Biggest Single Number  | easy-medium  | `GROUP BY`, `HAVING`, `COUNT`, CTE and `MAX`  | Leetcode | [SQL](solutions/619_BiggestSingleNumber.sql) |
